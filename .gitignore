@@ -1,0 +1,12 @@
+__pycache__/
+.env
+*.pyc
+*.pkl
+*.log
+.qdrant/
+data/
+sessions/
+*.wav
+*.mp4
+.DS_Store
+

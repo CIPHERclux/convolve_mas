@@ -1,0 +1,11 @@
+qdrant-client>=1.7.0
+sentence-transformers>=2.2.0
+faster-whisper>=0.10.0
+mediapipe>=0.10.0
+librosa>=0.10.0
+moviepy>=1.0.3
+groq>=0.4.0
+nltk>=3.8.0
+numpy>=1.24.0
+scipy>=1.10.0
+tqdm>=4.65.0
