@@ -176,7 +176,53 @@ This bidirectional interaction is a **core innovation**.
 Kairos doesn’t just respond — it **reflects emotional patterns** the user may not consciously notice.
 
 ---
+## 🚀 How to Run (Google Colab)
 
+Kairos is designed to run entirely inside **Google Colab** with minimal setup.
+
+### Prerequisites
+- A Google account (for Colab access)
+- The project ZIP file (download link provided below)
+
+---
+
+### Step-by-Step Instructions
+
+1. **Download the Project ZIP**
+   - Download the repository ZIP file from the **Google Drive link provided in this README**.
+   - Link :- https://drive.google.com/file/d/1xdb3vwwuVQ0RnN1_RnpbdHS46xuZsOyD/view?usp=sharing
+   - Do **not** extract the ZIP locally.
+
+2. **Open Google Colab**
+   - Visit: https://colab.research.google.com
+   - Click **New Notebook**
+
+3. **Copy the Starter Cell**
+   - Open the repository ZIP locally (or preview it on GitHub).
+   - Locate the file named `colab_starter_cell.py` (or the starter cell section in the README).
+   - Copy the entire contents of the starter cell.
+
+4. **Paste and Run**
+   - Paste the copied cell into the **first cell** of the Colab notebook.
+   - Run the cell.
+
+5. **Upload the ZIP When Prompted**
+   - When prompted by the notebook, upload the **same ZIP file** you downloaded earlier.
+   - The system will automatically extract dependencies and initialize Kairos.
+
+6. **Start Interacting**
+   - Once setup completes, follow the on-screen instructions to interact using:
+     - Text
+     - Audio
+     - Video
+
+---
+
+### Notes
+- No local environment setup is required.
+- Qdrant runs in **local embedded mode** inside Colab.
+- All processing happens within the Colab session.
+- Use Colab T4 for better experience.
 ## ⚠️ Prototype Status & Limitations
 
 This repository represents a **research prototype**:
